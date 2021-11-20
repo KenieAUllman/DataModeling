@@ -1,0 +1,51 @@
+Brainstorming 
+- Users 
+	- Email
+	- Password 
+	- Occassions 
+		- recipies?
+	- Grocery List 
+- Recipies 
+	- Public 
+	- Private
+		- Ingredients 
+
+
+User Work Flow 
+1. Login (username, password) 
+2a. Make a post (Recipie, Ingredients, Public or Private) 
+2b. Search List (Recipies) 
+3. Add RECIPIES to OCCASSIONS 
+4. And INGREDIENTS to the GROCERY LIST 
+
+
+TABLE IDEAS 
+Users 
+	This table will hold info about users. Each row 
+will represent a single user
+
+Recipies 
+	A user can create a recipie (private or publically) that
+will store info on ingredients 
+
+Users_Recipies 
+	This will be a many to many table where many users can save
+many recipies and many recipies can be saved to many users. 
+
+Users_Occasions 
+	This will be a one to many database where one user can 
+save many recipies but not the other way around. 
+
+User_Grocery List 
+	This database will allow users to save specific ingredients
+from recipies to their grocery list  
+
+
+RELATIONSHIPS 
+One-to-One: 
+
+
+One-to-Many:
+Users <- Recipies: User can make multiple recipies 
+
+Many-to-Many: 
